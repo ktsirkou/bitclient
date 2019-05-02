@@ -301,9 +301,9 @@ type YaccHookSettings struct {
 	IssueJqlMatcher                string `json:"issueJqlMatcher,omitempty"`
 	BranchNameRegex                string `json:"branchNameRegex,omitempty"`
 	ErrorMessageHeader             string `json:"errorMessageHeader,omitempty"`
-	ErrorMessageCommiterEmail      string `json:"errorMessage.COMMITER_EMAIL,omitempty"`
-	ErrorMessageCommiterEmailRegex string `json:"errorMessage.COMMITER_EMAIL_REGEX,omitempty"`
-	ErrorMessageCommiterName       string `json:"errorMessage.COMMITER_NAME,omitempty"`
+	ErrorMessageCommiterEmail      string `json:"errorMessage.COMMITTER_EMAIL,omitempty"`
+	ErrorMessageCommiterEmailRegex string `json:"errorMessage.COMMITTER_EMAIL_REGEX,omitempty"`
+	ErrorMessageCommiterName       string `json:"errorMessage.COMMITTER_NAME,omitempty"`
 	ErrorMessageCommitRegex        string `json:"errorMessage.COMMIT_REGEX,omitempty"`
 	ErrorMessageIssueJQL           string `json:"errorMessage.ISSUE_JQL,omitempty"`
 	ErrorMessageBranchName         string `json:"errorMessage.BRANCH_NAME,omitempty"`
